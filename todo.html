@@ -6,6 +6,7 @@
     <title>Blueprint</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/todostyle.css">
   </head>
   <body>
     <!-- Navbar -->
@@ -27,6 +28,15 @@
     </div>
     </header>
     <!-- Task List -->
+
+    <h1 class="header"> Todo List </h1>
+    <form id="todoForm">
+        <input id="todoInput" placeholder="Add a Todo...">
+        <button id="submit" type="button" onclick="todoList()">+</button>
+    </form>
+    <hr>
+    <ul id="todoList"></ul>
+
     <!-- JS text -->
     <script src="assets/js/app.js"></script>
   </body>

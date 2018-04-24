@@ -52,6 +52,7 @@ header::after {
 
 .site-nav li {
     border-bottom: 1px solid #575766;
+    
 }
 
 .site-nav li:last-child {
@@ -61,8 +62,9 @@ header::after {
 .site-nav a {
     color: white;
     text-decoration: none;
+    text-align: center;
     display: block;
-    padding: 2em 6em;
+    padding: 1em 2.2em;
     text-transform: uppercase;
 }
 
