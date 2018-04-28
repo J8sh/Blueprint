@@ -35,15 +35,16 @@
         </div>
       </nav>
       <!-- TODO INPUT -->
-      <form>
+      <form id="textInput">
           <div class="form-group">
             <label for="inputTodo">Add Task</label>
             <input type="text" class="form-control" id="inputTodo" placeholder="What are we doing today...">
           </div>
-          <button type="submit" class="btn btn-primary" onclick="task">Add</button>
+          <button type="submit" class="btn btn-primary" name="submit" value="submit">Add</button>
       </form>
       <!-- SECTION TO VIEW TODO LIST -->
-      <div>
+      <div class="list">
+        <h2>ToDo</h2>
         <ul id="taskList">
           <!-- USING JS TO DISPLAY TODO LIST -->
         </ul>
