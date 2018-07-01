@@ -9,5 +9,5 @@
  <p>The calendar will help remind me of monthly tasks that are not daily tasks.</p>
  <hr>
  <h3>Inventroy</h3>
- <p>Part of my job is to keep track of inventroy, making sure we have enough supplies.</p>
+ <p>Part of my job is to keep track of inventory, making sure we have enough supplies.</p>
  <hr>
